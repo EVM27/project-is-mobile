@@ -671,7 +671,7 @@
 }
 
 .item-card-info {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .item-card-info>h3 {
@@ -693,6 +693,7 @@
 
 .product__footer {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .product__prices {
@@ -955,6 +956,7 @@
   }
 
   .trends {
+    min-width: 360px;
     display: flex;
     flex-direction: column;
     margin-top: 45px;
