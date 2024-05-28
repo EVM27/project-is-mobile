@@ -56,11 +56,12 @@
 }
 
 .popup-title-link::after {
-  display: flex;
-  justify-content: center;
-  content: "_____";
-  color: #b59f5b;
-  font-size: 20px;
+  content: "";
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #e1d9bd;
+  display: block;
 }
 
 .popup-title {
@@ -767,7 +768,12 @@
 @media (min-width: 641px) and (max-width: 1200px) {
 
   .popup-title-link::after {
-    display: none;
+    content: "";
+    width: 60px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #e1d9bd;
+    display: block;
   }
 
   .popup-title {
